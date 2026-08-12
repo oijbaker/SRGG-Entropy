@@ -18,7 +18,7 @@ It contains the following code and data.
          - ./annulus_mass <path_loss_exponent> <number_of_iterations> <connection_range_r0> <step_r> <step_theta> <minor_radius>
          - ./cantor <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <cantor_ratio> <cantor_recursion_depth>
          - ./square_curves <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step>
-         - ./square_mass <path_loss_exponent> <number_of_iterations> <connection_radius_r0> <r0_step>
+         - ./square_mass <path_loss_exponent> <number_of_iterations> <connection_radius_r0> <x_step>
          - ./wedge_curves <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <max_wedge_angle>
          - ./wedge_mass <path_loss_exponent> <number_of_iterations> <connection_range_r0> <step_r> <step_theta> <max_angle>
      - NOTE: these scripts make use of parallelisation through OpenMP. To compile, use ./script_name.cpp -fopenmp -o output_name.
