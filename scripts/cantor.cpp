@@ -40,7 +40,7 @@ double local_entropy(double x, double y, double r0, double eta, int L) {
         double pointy = unif(gen);
 
         double dist = sqrt(pow(x - pointx, 2) + pow(y - pointy, 2));
-        avg += h2(rayleigh(dist, r0, eta))/L;
+        avg += h2(rayleigh(dist, r0, eta))/((double)L);
     }
     return avg;
 }
@@ -111,7 +111,7 @@ double entropy_graph(const int N, double r0, double eta, int L, double alpha, do
         }
     }
 
-    avg /= L; // Normalize by the number of iterations
+    avg /= ((double) L); // Normalize by the number of iterations
     return avg;
 }
 

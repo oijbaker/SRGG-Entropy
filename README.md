@@ -16,7 +16,7 @@ It contains the following code and data.
      - Syntax:
          - ./annulus_curves <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <minor_radius>
          - ./annulus_mass <path_loss_exponent> <number_of_iterations> <connection_range_r0> <step_r> <step_theta> <minor_radius>
-         - ./cantor <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <cantor_ratio> <cantor_recursion_depth>
+         - ./cantor <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <cantor_ratio (lambda^{-1})> <cantor_recursion_depth>
          - ./square_curves <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step>
          - ./square_mass <path_loss_exponent> <number_of_iterations> <connection_radius_r0> <x_step>
          - ./wedge_curves <number_of_points> <path_loss_exponent> <number_of_iterations> <r0_min> <r0_max> <r0_step> <max_wedge_angle>
