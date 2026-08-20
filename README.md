@@ -8,7 +8,7 @@ It contains the following code and data.
 
 1) Jupyter notebooks
      - Contain numerical verification of Theorems 1, 2 3 and 4 in the paper.
-     - Only require common python packages (numpy, matplotlib, scipy) as well as scienceplots for figure graphics. If unable to install scienceplots, it can be disabled by removing it from the import statment, and removing the line 'plt.style.use(['science', 'ieee', 'no-latex'])'.
+     - Only require common python packages (numpy, matplotlib, scipy) as well as scienceplots for figure graphics. If unable to install scienceplots, it can be disabled by removing it from the import statement, and removing the line 'plt.style.use(['science', 'ieee', 'no-latex'])'.
 
 2) C++ scripts
      - Plot every figure except Figures 1 and 2.
